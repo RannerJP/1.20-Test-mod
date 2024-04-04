@@ -1,8 +1,8 @@
 {
-    "item.rannerstestmod.example_item": "Example Item",
+    "item.rannerstestmod.lime": "Lime",
 
 
-    "block.rannerstestmod.test_block": "Test Block (Lime)",
+    "block.rannerstestmod.lime_block": "Lime Block",
 
     "itemGroup.example_tab": "Ranner's Items"
 }

@@ -13,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TestMod.MODID);
     
-    public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block", 
+    public static final RegistryObject<Block> LIME_BLOCK = BLOCKS.register("lime_block", 
         () -> new Block(BlockBehaviour.Properties.of()
             .mapColor(MapColor.COLOR_BLACK)
             .strength(1.5f, 17f)
