@@ -8,6 +8,7 @@ import static com.RannerJP.rannerstestmod.init.CreativeTabInit.addToTab;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.HoeItem;
@@ -75,6 +76,30 @@ public class ItemInit {
             TiersInit.LIME, 
             7, 
             1.1f,
+            new Item.Properties()
+        )));
+    public static final RegistryObject<ArmorItem> LIME_HELMET = addToTab(EXAMPLE_TAB_ITEMS, ITEMS.register("lime_helmet", 
+        () -> new ArmorItem(
+            null,
+            ArmorItem.Type.HELMET,
+            new Item.Properties()
+        )));
+    public static final RegistryObject<ArmorItem> LIME_CHESTPLATE = addToTab(EXAMPLE_TAB_ITEMS, ITEMS.register("lime_chestplate", 
+        () -> new ArmorItem(
+            null,
+            ArmorItem.Type.CHESTPLATE,
+            new Item.Properties()
+        )));
+    public static final RegistryObject<ArmorItem> LIME_LEGGINGS = addToTab(EXAMPLE_TAB_ITEMS, ITEMS.register("lime_leggings", 
+        () -> new ArmorItem(
+            null,
+            ArmorItem.Type.LEGGINGS,
+            new Item.Properties()
+        )));
+    public static final RegistryObject<ArmorItem> LIME_BOOTS = addToTab(EXAMPLE_TAB_ITEMS, ITEMS.register("lime_boots", 
+        () -> new ArmorItem(
+            null,
+            ArmorItem.Type.BOOTS,
             new Item.Properties()
         )));
 }
